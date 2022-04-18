@@ -43,7 +43,7 @@ def wd_login(xuhao, mima):
 
     # notification表示是否需要邮件通知打卡失败
     # 0表示不需要，1表示需要
-    notification = 1
+    notification = 0
 
     for retries in range(20):
         try:
